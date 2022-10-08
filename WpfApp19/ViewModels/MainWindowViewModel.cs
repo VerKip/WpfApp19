@@ -43,7 +43,7 @@ namespace WpfApp19.ViewModels
         public ICommand AddCommand { get; }
         private void OnAddCommandExecute(object p)
         {
-            Number2 = Number1 * Math.PI;
+            Number2 = Number1 * Math.PI * 2;
         }
 
         private bool CanAddCommandExecuted(object d)

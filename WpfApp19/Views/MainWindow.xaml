@@ -11,7 +11,7 @@
         <vm:MainWindowViewModel/>
     </Window.DataContext>
     <StackPanel>
-        <TextBox Text="Введите диаметр окружности"/>
+        <TextBox Text="Введите радиус окружности"/>
         <TextBox Text="{Binding Path=Number1}"/>
         <Button Content="Рассчитать длину окружности" Command="{Binding Path=AddCommand}"/>
         <TextBox Text="{Binding Path=Number2, StringFormat=0.00}"/>
